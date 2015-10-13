@@ -1,0 +1,9 @@
+env:
+#  type: "postgres"
+#  type: "redis"
+  type: "rabbit"
+#  connection_string: "postgres://direct:direct@127.0.0.1:5432/direct_development"
+#  connection_string: "redis://:@127.0.0.1:6379/"
+  connection_string: "amqp://guest:guest@127.0.0.1:5672"
+#TODO: переименовать параметр
+name: "facebook_publish"

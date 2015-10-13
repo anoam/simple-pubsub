@@ -1,0 +1,1 @@
+connection_string: "postgres://direct:direct@127.0.0.1:5432/direct_providers_repo"
